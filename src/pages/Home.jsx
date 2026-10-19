@@ -12,7 +12,7 @@ function Home() {
       <section className="hero">
         <img
           className="hero-image"
-          src={properties[0].image}
+          src="/images/photo-1600596542815-ffad4c1539a9.jpg"
           alt="Residencia contemporánea, fotografía ilustrativa"
         />
         <div className="hero-content">

@@ -1,10 +1,26 @@
 // Registros ilustrativos: reemplazar por inventario autorizado antes de publicar al público.
-const photo=(id)=>`/images/${id}.jpg`;
-export const properties=[
-{id:'DV-001',slug:'casa-jardin-zapopan',title:'Una casa para echar raíces',type:'Casa',operation:'Venta',zone:'Guadalajara',location:'Zapopan, Jalisco',price:4850000,beds:3,baths:3,area:210,image:photo('photo-1600596542815-ffad4c1539a9'),description:'Espacios abiertos, luz natural y un jardín para disfrutar cada día. Ejemplo de una residencia con sala, comedor, cocina y terraza.',amenities:['Jardín privado','Terraza','2 estacionamientos']},
-{id:'DV-002',slug:'departamento-guadalajara',title:'La ciudad, a tu ritmo',type:'Departamento',operation:'Renta',zone:'Guadalajara',location:'Guadalajara, Jalisco',price:18500,beds:2,baths:2,area:95,image:photo('photo-1600607687920-4e2a09cf159d'),description:'Un departamento de distribución práctica con áreas sociales luminosas. Una plantilla para presentar opciones de vida urbana.',amenities:['Balcón','Cocina integral','1 estacionamiento']},
-{id:'DV-003',slug:'residencia-la-cruz',title:'Tu refugio cerca del mar',type:'Casa',operation:'Venta',zone:'Vallarta y alrededores',location:'La Cruz de Huanacaxtle, Nayarit',price:7900000,beds:3,baths:3,area:280,image:photo('photo-1613490493576-7fde63acd811'),description:'Una propuesta de espacios amplios y convivencia al aire libre en la región de Bahía de Banderas. Información ilustrativa.',amenities:['Alberca','Terraza','2 estacionamientos']},
-{id:'DV-004',slug:'casa-tlajomulco',title:'Más espacio para tu familia',type:'Casa',operation:'Renta',zone:'Guadalajara',location:'Tlajomulco de Zúñiga, Jalisco',price:16000,beds:3,baths:2,area:160,image:photo('photo-1600047509807-ba8f99d2cdde'),description:'Distribución cómoda con espacio para trabajar, descansar y compartir. Sustituye esta descripción por los detalles reales del inmueble.',amenities:['Patio','Estudio','2 estacionamientos']},
-{id:'DV-005',slug:'departamento-vallarta',title:'Una nueva vista cada mañana',type:'Departamento',operation:'Renta',zone:'Vallarta y alrededores',location:'Puerto Vallarta, Jalisco',price:29000,beds:2,baths:2,area:120,image:photo('photo-1600210492486-724fe5c67fb0'),description:'Una plantilla de departamento para estancias de largo plazo en la costa. Fotografías y datos de referencia.',amenities:['Terraza','Aire acondicionado','1 estacionamiento']},
-{id:'DV-006',slug:'departamento-zapopan',title:'Diseñado para tu siguiente etapa',type:'Departamento',operation:'Venta',zone:'Guadalajara',location:'Zapopan, Jalisco',price:3250000,beds:2,baths:2,area:105,image:photo('photo-1600566753086-00f18fb6b3ea'),description:'Un espacio contemporáneo con áreas integradas y acabados cálidos. Registro de ejemplo listo para reemplazar.',amenities:['Cocina integral','Área de lavado','1 estacionamiento']}
-].map(p=>({...p,gallery:[p.image,photo('photo-1600607687939-ce8a6c25118c'),photo('photo-1600566753190-17f0baa2a6c3')]}));
+const photo = (id) => `/images/${id}.webp`;
+export const properties = [
+  {
+    id: "DV-001",
+    slug: "departamento-punta-foresta",
+    title: "Departamento Punta Foresta",
+    type: "Departamento",
+    operation: "Venta",
+    zone: "Guadalajara",
+    location: "Zapopan, Jalisco",
+    price: 3350000,
+    beds: 3,
+    baths: 2,
+    area: 71,
+    image: photo("PF-001"),
+    description:
+      "Espacios abiertos, luz natural y una terraza para disfrutar cada día.",
+    amenities: ["Terraza privada", "1 estacionamiento", "Planta Baja", "Mantenimiento $1100 MXN"],
+    gallery: [
+        photo("PF-001"),
+        photo("PF-002"),
+        photo("PF-003"),
+  ],
+  },
+]
