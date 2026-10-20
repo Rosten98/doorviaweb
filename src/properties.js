@@ -59,7 +59,7 @@ export const properties = [
     image: photo2("aria1"),
     description:
       "Espacios abiertos, luz natural y una terraza para disfrutar cada día.",
-    amenities: ["Nuevo", "2 estacionamientos"],
+    amenities: ["Nuevo", "2 estacionamientos", "Cocina equipada", "Closets", "Cuarto de servicio", "Elevadores", "Fraccionamiento privado", "Pet friendly", "Gimnasio", "Ludoteca"],
     gallery: [
         photo2("aria1"),
         photo2("aria2"),
