@@ -1,5 +1,6 @@
 // Registros ilustrativos: reemplazar por inventario autorizado antes de publicar al público.
 const photo = (id) => `/images/${id}.webp`;
+const photo2 = (id) => `/images/${id}.jpg`;
 export const properties = [
   {
     id: "DV-001",
@@ -21,6 +22,51 @@ export const properties = [
         photo("PF-001"),
         photo("PF-002"),
         photo("PF-003"),
+        photo("PF1"),
+        photo("PF2"),
+        photo("PF3"),
+        photo("PF4"),
+        photo("PF5"),
+        photo("PF6"),
+        photo("PF7"),
+        photo("PF8"),
+        photo("PF9"),
+        photo("PF10"),
+        photo("PF11"),
+        photo("PF12"),
+        photo("PF13"),
+        photo("PF14"),
+        photo("PF15"),
+        photo("PF16"),
+        photo("PF17"),
+        photo("PF18"),
+        photo("PF19"),
+        photo("PF20"),
+  ],
+  },
+  {
+    id: "DV-002",
+    slug: "departamento-vivaria",
+    title: "Departamento Vivaria",
+    type: "Departamento",
+    operation: "Venta",
+    zone: "Guadalajara",
+    location: "Guadalajara, Jalisco",
+    price: 2500000,
+    beds: 1,
+    baths: 3,
+    area: 44,
+    image: photo2("aria1"),
+    description:
+      "Espacios abiertos, luz natural y una terraza para disfrutar cada día.",
+    amenities: ["Nuevo", "2 estacionamientos"],
+    gallery: [
+        photo2("aria1"),
+        photo2("aria2"),
+        photo2("aria3"),
+        photo2("aria4"),
+        photo2("aria5"),
+        photo2("aria6"),
   ],
   },
 ]

@@ -38,14 +38,14 @@ function Detail({ p }) {
         <button
           className="gallery-prev"
           aria-label="Foto anterior"
-          onClick={() => setIndex((index + 2) % 3)}
+          onClick={() => setIndex( index > 0 ? (index - 1) : (p.gallery.length - 1))}
         >
           <ChevronLeft />
         </button>
         <button
           className="gallery-next"
           aria-label="Siguiente foto"
-          onClick={() => setIndex((index + 1) % 3)}
+          onClick={() => setIndex((index + 1) % p.gallery.length)}
         >
           <ChevronRight />
         </button>

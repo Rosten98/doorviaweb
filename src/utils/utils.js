@@ -6,7 +6,7 @@ export const money = (n) =>
   }).format(n);
 
 export const whatsapp = (p) =>
-  "https://wa.me/522219384780?text=" +
+  "https://wa.me/5213347651730?text=" +
   encodeURIComponent(
     p
       ? `Hola, me interesa la propiedad ${p.id}: ${p.title}. ${location.origin}/propiedades/${p.slug}`

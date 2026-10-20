@@ -150,7 +150,7 @@ function Home() {
           </p>
           <Wa className="button mint" />
           <a className="phone" href={whatsapp()}>
-            +52 221 938 4780
+            +52 334 765 1730
           </a>
         </div>
         <Form />
