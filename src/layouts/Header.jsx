@@ -8,7 +8,7 @@ function Header() {
   return (
     <header>
       <a href="/" className="brand">
-        <img src="/logo.jpg" alt="" />
+        <img src="/logo3.jpeg" alt="" />
         doorvia<span>®</span>
       </a>
       <button
