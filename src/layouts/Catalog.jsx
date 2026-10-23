@@ -63,9 +63,9 @@ function Catalog() {
         </div>
       </div>
       <div className="catalog-note">
-        <span className="dot" />
+        {/* <span className="dot" />
         Catálogo de demostración · 6 propiedades ilustrativas, sin
-        disponibilidad comercial.
+        disponibilidad comercial. */}
       </div>
       <div className="grid">
         {filtered.map((p) => (

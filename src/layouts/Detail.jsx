@@ -17,7 +17,7 @@ function Detail({ p }) {
       <div className="detail-heading">
         <div>
           <p className="eyebrow">
-            {p.id} · EN {p.operation.toUpperCase()} · EJEMPLO
+            {p.id} · EN {p.operation.toUpperCase()}
           </p>
           <h1>{p.title}</h1>
           <p className="location">
@@ -55,13 +55,15 @@ function Detail({ p }) {
       </div>
       <div className="detail-layout">
         <div>
-          <p className="demo-alert">
+          {/* <p className="demo-alert">
             Propiedad de demostración. Fotografías, precio y características
             ilustrativas.
-          </p>
+          </p> */}
           <Stats p={p} />
           <h2>Conoce el espacio</h2>
-          <p>{p.description}</p>
+          {
+            p.description.map( description => <p>{description}</p>)
+          }
           <div className="amenities">
             {p.amenities.map((a) => (
               <span key={a}>
